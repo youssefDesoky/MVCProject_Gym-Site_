@@ -1,0 +1,5 @@
+using GymManagementDAL.Entities;
+
+namespace GymManagementDAL.Repositories.Interfaces;
+
+public interface ISessionRepository : IMainRepository<Session> {}
