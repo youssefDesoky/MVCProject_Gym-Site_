@@ -12,6 +12,8 @@ builder.Services.AddDbContext<GymContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")); // DefaultConnection is the name of the connection string in appsettings.json
 });
+
+builder.Services.AddScoped<DbContext, GymContext>();
 #endregion
 
 var app = builder.Build();
