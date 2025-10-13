@@ -41,9 +41,8 @@ public class TrainerService : ITrainerService
             };
 
             _unitOfWork.GetRepository<Trainer>().Create(trainer);
-            _unitOfWork.SaveChanges();
 
-            return true;
+            return _unitOfWork.SaveChanges() > 0;
         }
         catch
         {
@@ -97,9 +96,8 @@ public class TrainerService : ITrainerService
             if (!sessions.Any())
             {
                 _unitOfWork.GetRepository<Trainer>().Delete(trainer);
-                _unitOfWork.SaveChanges();
 
-                return true;
+                return _unitOfWork.SaveChanges() > 0;
             }
         }
         
@@ -112,18 +110,13 @@ public class TrainerService : ITrainerService
 
         if (trainer is null)
             return false;
-        
-        trainer.Name = model.Name;
-        trainer.Email = model.Email;
-        trainer.Phone = model.Phone;
-        trainer.DateOfBirth = model.DateOfBirth;
-        trainer.Specialties = model.Specialization;
-        trainer.UpdatedAt = DateTime.Now;
+
+        (trainer.Name, trainer.Email, trainer.Phone, trainer.DateOfBirth, trainer.Specialties, trainer.UpdatedAt)
+        = (model.Name, model.Email, model.Phone, model.DateOfBirth, model.Specialization, DateTime.Now);
 
         _unitOfWork.GetRepository<Trainer>().Update(trainer);
-        _unitOfWork.SaveChanges();
 
-        return true;
+        return _unitOfWork.SaveChanges() > 0;
     }
 
     #region Helper Methods

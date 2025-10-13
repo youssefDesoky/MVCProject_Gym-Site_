@@ -11,10 +11,14 @@ public class UnitOfWork : IUnitOfWork
     private readonly GymContext _context;
     private readonly Dictionary<string, object> repositories = new();
 
-    public UnitOfWork(GymContext context)
+    public ISessionRepository SessionRepository { get; set; }
+
+    public UnitOfWork(ISessionRepository sessionRepository, GymContext context)
     {
+        SessionRepository = sessionRepository;
         _context = context;
     }
+
 
     public IMainCRUDRepository<TEntity> GetRepository<TEntity>() where TEntity : BaseEntity
     {

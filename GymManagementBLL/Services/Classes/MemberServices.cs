@@ -45,9 +45,8 @@ public class MemberServices : IMemberService
             };
 
             _unitOfWork.GetRepository<Member>().Create(member);
-            _unitOfWork.SaveChanges();
 
-            return true;
+            return _unitOfWork.SaveChanges() > 0;
         }
         catch
         {
@@ -151,8 +150,8 @@ public class MemberServices : IMemberService
             }
 
             _unitOfWork.GetRepository<Member>().Delete(member);
-            _unitOfWork.SaveChanges();
-            return true;
+
+            return _unitOfWork.SaveChanges() > 0;
         }
         catch
         {
@@ -172,17 +171,12 @@ public class MemberServices : IMemberService
         if (IsPhoneNumberExist(model.Phone))
             return false;
 
-        member.Email = model.Email;
-        member.Phone = model.Phone;
-        member.Address.BuildingNumber = model.BuildingNumber;
-        member.Address.Street = model.Street;
-        member.Address.City = model.City;
-        member.UpdatedAt = DateTime.Now;
+        (member.Email, member.Phone, member.Address.BuildingNumber, member.Address.Street, member.Address.City, member.UpdatedAt)
+        = (model.Email, model.Phone, model.BuildingNumber, model.Street, model.City, DateTime.Now);
 
         _unitOfWork.GetRepository<Member>().Update(member);
-        _unitOfWork.SaveChanges();
 
-        return true;
+        return _unitOfWork.SaveChanges() > 0;
     }
 
     #region Helper Methods
