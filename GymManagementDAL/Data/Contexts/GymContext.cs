@@ -14,7 +14,7 @@ public class GymContext : DbContext
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
-
+    
     #region DbSets
     public DbSet<Member> Members { get; set; }
     public DbSet<Membership> Memberships { get; set; }

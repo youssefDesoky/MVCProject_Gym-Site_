@@ -4684,11 +4684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj",
+      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession04/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj",
       "projectName": "GymManagementDAL",
-      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj",
+      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession04/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj",
       "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementDAL/obj/",
+      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession04/MVCProject_Gym-Site_/GymManagementDAL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"

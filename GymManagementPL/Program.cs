@@ -1,3 +1,6 @@
+using GymManagementBLL;
+using GymManagementBLL.Services.Classes;
+using GymManagementBLL.Services.Interfaces;
 using GymManagementDAL.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,7 +19,24 @@ builder.Services.AddDbContext<GymContext>(options =>
 builder.Services.AddScoped<DbContext, GymContext>();
 #endregion
 
+#region Unit of Work
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+#endregion
+
+#region AutoMapper Configuration
+builder.Services.AddAutoMapper(x => x.AddProfile(new MappingProfile()));
+#endregion
+
 var app = builder.Build();
+
+
+#region Data Seeding
+using (var scope = app.Services.CreateScope())
+{
+    var gymDbContext = scope.ServiceProvider.GetRequiredService<GymContext>();
+    GymDataSeeding.SeedData(gymDbContext);
+}
+#endregion
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

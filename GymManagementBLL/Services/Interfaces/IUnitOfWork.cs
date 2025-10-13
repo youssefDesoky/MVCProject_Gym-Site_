@@ -8,5 +8,7 @@ public interface IUnitOfWork
 {
     IMainCRUDRepository<TEntity> GetRepository<TEntity>() where TEntity : BaseEntity;
 
+    ISessionRepository SessionRepository { get; set; }
+
     int SaveChanges();
 }
