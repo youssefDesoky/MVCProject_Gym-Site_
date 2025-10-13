@@ -2,4 +2,4 @@ using GymManagementDAL.Entities;
 
 namespace GymManagementDAL.Repositories.Interfaces;
 
-public interface ISessionRepository : IMainRepository<Session> {}
+public interface ISessionRepository : IMainCRUDRepository<Session> {}

@@ -2,4 +2,4 @@ using GymManagementDAL.Entities;
 
 namespace GymManagementDAL.Repositories.Interfaces;
 
-public interface IBookingRepository : IMainRepository<Booking> {}
+public interface IBookingRepository : IMainCRUDRepository<Booking> {}
