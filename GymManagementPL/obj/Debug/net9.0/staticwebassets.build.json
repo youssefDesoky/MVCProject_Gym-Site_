@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UyIXpOCcGRdyJnfnAYEUsQauipM5Wvsf63OIM7444h0=",
+  "Hash": "reWfyi067pNJShQqwnIHDVwx0ezbZ00mzEemvx8GTac=",
   "Source": "GymManagementPL",
   "BasePath": "_content/GymManagementPL",
   "Mode": "Default",
@@ -983,12 +983,12 @@
       "OriginalItemSpec": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-bb2pyvppno.gz",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-euli18iad3.gz",
       "SourceId": "GymManagementPL",
       "SourceType": "Discovered",
       "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/GymManagementPL",
-      "RelativePath": "css/style#[.{fingerprint=bb2pyvppno}]?.css.gz",
+      "RelativePath": "css/style#[.{fingerprint=euli18iad3}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -997,8 +997,8 @@
       "RelatedAsset": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/css/style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "990mrr3v40",
-      "Integrity": "zeEtvmnPkUVFlquJg6OiBv+ElWUiaQYKqCJ+4CxvwHM=",
+      "Fingerprint": "vjaum5wnzi",
+      "Integrity": "61rzVLBJTRBdGVM3l5O1kC0QCSZ+Ts6xQl6MnLLtCHI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/css/style.css"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bb2pyvppno",
-      "Integrity": "CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws=",
+      "Fingerprint": "euli18iad3",
+      "Integrity": "FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/style.css"
@@ -3379,13 +3379,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/style.bb2pyvppno.css",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-bb2pyvppno.gz",
+      "Route": "css/style.css",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-euli18iad3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000344115623"
+          "Quality": "0.000387747189"
         }
       ],
       "ResponseHeaders": [
@@ -3395,19 +3395,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2905"
+          "Value": "2578"
         },
         {
           "Name": "ETag",
-          "Value": "\"zeEtvmnPkUVFlquJg6OiBv+ElWUiaQYKqCJ+4CxvwHM=\""
+          "Value": "\"61rzVLBJTRBdGVM3l5O1kC0QCSZ+Ts6xQl6MnLLtCHI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Oct 2025 16:53:51 GMT"
+          "Value": "Fri, 17 Oct 2025 17:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3423,26 +3423,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws=\""
+          "Value": "W/\"FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "bb2pyvppno"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws="
+          "Value": "sha256-FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw="
         }
       ]
     },
     {
-      "Route": "css/style.bb2pyvppno.css",
+      "Route": "css/style.css",
       "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/css/style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3452,7 +3444,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12811"
+          "Value": "11703"
         },
         {
           "Name": "Content-Type",
@@ -3460,11 +3452,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws=\""
+          "Value": "\"FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Oct 2025 16:53:51 GMT"
+          "Value": "Fri, 17 Oct 2025 17:58:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-euli18iad3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"61rzVLBJTRBdGVM3l5O1kC0QCSZ+Ts6xQl6MnLLtCHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 17:58:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-61rzVLBJTRBdGVM3l5O1kC0QCSZ+Ts6xQl6MnLLtCHI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.euli18iad3.css",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-euli18iad3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000387747189"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2578"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"61rzVLBJTRBdGVM3l5O1kC0QCSZ+Ts6xQl6MnLLtCHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 17:58:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "euli18iad3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.euli18iad3.css",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 17:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3474,7 +3611,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bb2pyvppno"
+          "Value": "euli18iad3"
         },
         {
           "Name": "label",
@@ -3482,13 +3619,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws="
+          "Value": "sha256-FqCSvMelLkR8VeNSYLDEPcDcCQbnQlcDjbGmzGIUefw="
         }
       ]
     },
     {
-      "Route": "css/style.bb2pyvppno.css.gz",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-bb2pyvppno.gz",
+      "Route": "css/style.euli18iad3.css.gz",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-euli18iad3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3497,7 +3634,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2905"
+          "Value": "2578"
         },
         {
           "Name": "Content-Type",
@@ -3505,11 +3642,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zeEtvmnPkUVFlquJg6OiBv+ElWUiaQYKqCJ+4CxvwHM=\""
+          "Value": "\"61rzVLBJTRBdGVM3l5O1kC0QCSZ+Ts6xQl6MnLLtCHI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Oct 2025 16:53:51 GMT"
+          "Value": "Fri, 17 Oct 2025 17:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3527,7 +3664,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bb2pyvppno"
+          "Value": "euli18iad3"
         },
         {
           "Name": "label",
@@ -3535,144 +3672,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zeEtvmnPkUVFlquJg6OiBv+ElWUiaQYKqCJ+4CxvwHM="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-bb2pyvppno.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000344115623"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2905"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zeEtvmnPkUVFlquJg6OiBv+ElWUiaQYKqCJ+4CxvwHM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Oct 2025 16:53:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/css/style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12811"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Oct 2025 16:53:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CRpZ5AVNxcCX+sOAlH0/maSUw5J0s397hABU9phirws="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css.gz",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/compressed/p4lsgl2goe-bb2pyvppno.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2905"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zeEtvmnPkUVFlquJg6OiBv+ElWUiaQYKqCJ+4CxvwHM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Oct 2025 16:53:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zeEtvmnPkUVFlquJg6OiBv+ElWUiaQYKqCJ+4CxvwHM="
+          "Value": "sha256-61rzVLBJTRBdGVM3l5O1kC0QCSZ+Ts6xQl6MnLLtCHI="
         }
       ]
     },
