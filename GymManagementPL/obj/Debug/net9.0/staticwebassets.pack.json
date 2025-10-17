@@ -1,259 +1,371 @@
 {
   "Files": [
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/scopedcss/projectbundle/GymManagementPL.bundle.scp.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/obj/Debug/net9.0/scopedcss/projectbundle/GymManagementPL.bundle.scp.css",
       "PackagePath": "staticwebassets/GymManagementPL.72k3pfrc1v.bundle.scp.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/Files/categories.json",
+      "PackagePath": "staticwebassets/Files/categories.json"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/favicon.ico",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/Files/plans.json",
+      "PackagePath": "staticwebassets/Files/plans.json"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/js/site.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/Ellipse 7.jpg",
+      "PackagePath": "staticwebassets/images/Ellipse 7.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/Theo Vance.jpg",
+      "PackagePath": "staticwebassets/images/Theo Vance.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/about p1.jpg",
+      "PackagePath": "staticwebassets/images/about p1.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/about p2.jpg",
+      "PackagePath": "staticwebassets/images/about p2.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/about p3.jpg",
+      "PackagePath": "staticwebassets/images/about p3.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/action dots.jpg",
+      "PackagePath": "staticwebassets/images/action dots.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/card-header.jpg",
+      "PackagePath": "staticwebassets/images/card-header.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/dumbbell.jpg",
+      "PackagePath": "staticwebassets/images/dumbbell.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/edit.jpg",
+      "PackagePath": "staticwebassets/images/edit.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/facebook-f.jpg",
+      "PackagePath": "staticwebassets/images/facebook-f.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/feature icon.jpg",
+      "PackagePath": "staticwebassets/images/feature icon.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/icon.jpg",
+      "PackagePath": "staticwebassets/images/icon.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/info 1.jpg",
+      "PackagePath": "staticwebassets/images/info 1.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/line-md_phone-filled.jpg",
+      "PackagePath": "staticwebassets/images/line-md_phone-filled.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/logo.jpg",
+      "PackagePath": "staticwebassets/images/logo.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/mdi_whatsapp.jpg",
+      "PackagePath": "staticwebassets/images/mdi_whatsapp.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/message icon.jpg",
+      "PackagePath": "staticwebassets/images/message icon.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/phone icon.jpg",
+      "PackagePath": "staticwebassets/images/phone icon.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/search icon.jpg",
+      "PackagePath": "staticwebassets/images/search icon.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/star.svg",
+      "PackagePath": "staticwebassets/images/star.svg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/twitter.jpg",
+      "PackagePath": "staticwebassets/images/twitter.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/why us images.jpg",
+      "PackagePath": "staticwebassets/images/why us images.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/workout 1.jpg",
+      "PackagePath": "staticwebassets/images/workout 1.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/workout 2.jpg",
+      "PackagePath": "staticwebassets/images/workout 2.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/workout 3.jpg",
+      "PackagePath": "staticwebassets/images/workout 3.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/images/x-circle 1.jpg",
+      "PackagePath": "staticwebassets/images/x-circle 1.jpg"
+    },
+    {
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.slim.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.slim.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession03/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/wwwroot/lib/jquery/dist/jquery.slim.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
     },
     {

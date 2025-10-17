@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZaLOVfBkOwo=",
+  "dgSpecHash": "4oDGGUaW4eU=",
   "success": true,
-  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession04/MVCProject_Gym-Site_/GymManagementPL/GymManagementPL.csproj",
+  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementPL/GymManagementPL.csproj",
   "expectedPackageFiles": [
     "/home/youssef-desoky/.nuget/packages/automapper/15.0.1/automapper.15.0.1.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
