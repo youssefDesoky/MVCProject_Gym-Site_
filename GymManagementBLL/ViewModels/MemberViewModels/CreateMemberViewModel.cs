@@ -1,6 +1,4 @@
-using System;
 using System.ComponentModel.DataAnnotations;
-using GymManagementDAL.Entities;
 using GymManagementDAL.Entities.Enums;
 
 namespace GymManagementBLL.ViewModels.MemberViewModels;
@@ -21,7 +19,7 @@ public class CreateMemberViewModel
 
     [Required(ErrorMessage = "Phone is required")]
     [Phone(ErrorMessage = "Invalid phone number")]
-    [RegularExpression(@"^[010|011|012|015][0-9]{8}$", ErrorMessage = "Phone number must be a valid Egyptian number")]
+    [RegularExpression(@"^[010|011|012|015][0-9]{10}$", ErrorMessage = "Phone number must be a valid Egyptian number")]
     [DataType(DataType.PhoneNumber)]
     public string Phone { get; set; } = null!;
 

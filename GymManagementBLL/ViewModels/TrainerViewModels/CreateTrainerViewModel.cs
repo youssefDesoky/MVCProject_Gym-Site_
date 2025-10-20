@@ -1,10 +1,9 @@
-using System;
 using System.ComponentModel.DataAnnotations;
 using GymManagementDAL.Entities.Enums;
 
 namespace GymManagementBLL.ViewModels.TrainerViewModels;
 
-public class CreateTrainerModelView
+public class CreateTrainerViewModel
 {
     [Required(ErrorMessage = "Name is required")]
     [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "Name must contain only letters and spaces")]
@@ -17,7 +16,7 @@ public class CreateTrainerModelView
 
     [Required(ErrorMessage = "Phone is required")]
     [Phone(ErrorMessage = "Invalid phone number")]
-    [RegularExpression(@"^[010|011|012|015][0-9]{8}$", ErrorMessage = "Phone number must be a valid Egyptian number")]
+    [RegularExpression(@"^[010|011|012|015][0-9]{10}$", ErrorMessage = "Phone number must be a valid Egyptian number")]
     [DataType(DataType.PhoneNumber)]
     public string Phone { get; set; } = null!;
 

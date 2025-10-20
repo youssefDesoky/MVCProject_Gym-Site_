@@ -12,7 +12,6 @@ public class MemberHealthDetailsViewModel
     public decimal Height { get; set; }
 
     [Required(ErrorMessage = "Blood Type is required")]
-    [StringLength(3, MinimumLength = 2, ErrorMessage = "Blood Type must be between 2 and 3 characters")]
     public string BloodType { get; set; } = null!;
     
     public string? Note { get; set; } = null!;

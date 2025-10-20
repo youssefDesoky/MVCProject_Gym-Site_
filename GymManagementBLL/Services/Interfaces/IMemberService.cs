@@ -10,5 +10,6 @@ public interface IMemberService
     MemberDetailsViewModel? GetMemberDetails(int memberId);
     MemberHealthDetailsViewModel? GetMemberHealthDetails(int memberId);
     bool UpdateMember(int memberId, UpdateMemberViewModel model);
+    UpdateMemberViewModel? GetMemberToUpdate(int memberId);
     bool RemoveMember(int memberId);
 }

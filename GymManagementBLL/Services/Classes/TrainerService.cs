@@ -1,8 +1,6 @@
-using System;
 using GymManagementBLL.Services.Interfaces;
 using GymManagementBLL.ViewModels.TrainerViewModels;
 using GymManagementDAL.Entities;
-using GymManagementDAL.Repositories.Interfaces;
 
 namespace GymManagementBLL.Services.Classes;
 
@@ -15,13 +13,11 @@ public class TrainerService : ITrainerService
         _unitOfWork = unitOfWork;
     }
 
-    public bool CreateTrainer(CreateTrainerModelView model)
+    public bool CreateTrainer(CreateTrainerViewModel model)
     {
         try
         {
-            if (IsEmailExist(model.Email)) 
-                return false;
-            if (IsPhoneNumberExist(model.Phone)) 
+            if (IsValueExist(x => x.Email == model.Email || x.Phone == model.Phone))
                 return false;
 
             var trainer = new Trainer
@@ -29,7 +25,6 @@ public class TrainerService : ITrainerService
                 Name = model.Name,
                 Email = model.Email,
                 Phone = model.Phone,
-                DateOfBirth = model.DateOfBirth,
                 Gender = model.Gender,
                 Address = new Address
                 {
@@ -111,12 +106,34 @@ public class TrainerService : ITrainerService
         if (trainer is null)
             return false;
 
-        (trainer.Name, trainer.Email, trainer.Phone, trainer.DateOfBirth, trainer.Specialties, trainer.UpdatedAt)
-        = (model.Name, model.Email, model.Phone, model.DateOfBirth, model.Specialization, DateTime.Now);
+        if (IsValueExist(x => (x.Email == model.Email || x.Phone == model.Phone) && x.Id != trainerId))
+            return false;
+
+        (trainer.Name, trainer.Email, trainer.Phone, trainer.Specialties, trainer.UpdatedAt)
+        = (model.Name, model.Email, model.Phone, model.Specialization, DateTime.Now);
 
         _unitOfWork.GetRepository<Trainer>().Update(trainer);
 
         return _unitOfWork.SaveChanges() > 0;
+    }
+
+    public UpdateTrainerViewModel? GetTrainerToUpdate(int trainerId)
+    {
+        var trainer = _unitOfWork.GetRepository<Trainer>().GetById(trainerId);
+
+        if (trainer is null)
+            return null;
+
+        return new UpdateTrainerViewModel
+        {
+            Name = trainer.Name,
+            Email = trainer.Email,
+            Phone = trainer.Phone,
+            BuildingNumber = trainer.Address.BuildingNumber,
+            Street = trainer.Address.Street,
+            City = trainer.Address.City,
+            Specialization = trainer.Specialties
+        };
     }
 
     #region Helper Methods
@@ -128,9 +145,7 @@ public class TrainerService : ITrainerService
         return $"{address.BuildingNumber}, {address.Street}, {address.City}";
     }
 
-    private bool IsEmailExist(string email) => _unitOfWork.GetRepository<Trainer>().GetAll().Any(x => x.Email == email);
-
-    private bool IsPhoneNumberExist(string phone) => _unitOfWork.GetRepository<Trainer>().GetAll().Any(x => x.Phone == phone);
+    private bool IsValueExist(Func<Member, bool> condition) => _unitOfWork.GetRepository<Member>().GetAll(condition).Any();
 
     #endregion
 }
