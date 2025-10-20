@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css" />
   <!-- ^ Our main css file -->
   <link rel="stylesheet" href="./css/style.css" />
-  <title>Power fitness | Home</title>
+  <title>Power fitness | @ViewData["Title"] </title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     <!-- ^ navbar -->
     <nav class="navbar navbar-expand-lg bg-white my-3">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a asp-controller="Home" asp-action="Index" class="navbar-brand">
           <img src="./images/logo.jpg" alt="" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -35,25 +35,25 @@
           <ul class="navbar-nav m-auto mb-2 mb-lg-0 mt-3 mt-lg-0">
             <li class="nav-item">
             <li class="nav-item">
-              <a class="nav-link active px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Home</a>
+              <a class="nav-link active px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Members</a>
+              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Member" asp-action="Index">Members</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Trainers</a>
+              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Trainer" asp-action="Index">Trainers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Sessions</a>
+              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Session" asp-action="Index">Sessions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Plans</a>
+              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Plan" asp-action="Index">Plans</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Memberships</a>
+              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Membership" asp-action="Index">Memberships</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" href="#">Sessions Schedule</a>
+              <a class="nav-link  px-3 py-2 mx-2 fw-bolder fs-5" aria-current="page" asp-controller="Booking" asp-action="Index">Sessions Schedule</a>
             </li>
           </ul>
         </div>
@@ -62,9 +62,17 @@
 
   </header>
 
-  <div>
-    @RenderBody()
+  <div class="container">
+    <main role="main" class="pb-3">
+      @RenderBody()
+    </main>
   </div>
+  
+  <script src="~/lib/jquery/dist/jquery.min.js"></script>
+  <script src="~/lib/bootstrap/dist/bootstrap.bundle.min.js"></script>
+  <script src="~/js/site.js" asp-append-version="true"></script>
+
+  @await RenderSectionAsync("Scripts", required: false)
 </body>
 
 </html>

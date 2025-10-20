@@ -13,7 +13,7 @@ public class PlanService : IPlanService
     {
         _unitOfWork = unitOfWork;
     }
-    
+
     public bool EditPlan(int planId, UpdatePlanViewModel model)
     {
         var plan = _unitOfWork.GetRepository<Plan>().GetById(planId);
@@ -28,6 +28,21 @@ public class PlanService : IPlanService
         _unitOfWork.GetRepository<Plan>().Update(plan);
 
         return _unitOfWork.SaveChanges() > 0;
+    }
+    
+    public UpdatePlanViewModel? GetPlanToEdit(int planId)
+    {
+        var plan = _unitOfWork.GetRepository<Plan>().GetById(planId);
+
+        if (plan is null)
+            return null;
+
+        return new UpdatePlanViewModel
+        {
+            PlanName = plan.Name,
+            Description = plan.Description,
+            DurationDays = plan.DurationDays
+        };
     }
 
     public IEnumerable<PlanViewModel> GetAllPlans()

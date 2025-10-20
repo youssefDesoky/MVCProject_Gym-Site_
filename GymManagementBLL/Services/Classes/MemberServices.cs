@@ -17,9 +17,7 @@ public class MemberServices : IMemberService
     {
         try
         {
-            if (IsEmailExist(model.Email)) 
-                return false;
-            if (IsPhoneNumberExist(model.Phone)) 
+            if (IsValueExist(x => x.Email == model.Email || x.Phone == model.Phone))
                 return false;
 
             var member = new Member
@@ -166,9 +164,7 @@ public class MemberServices : IMemberService
         if (member is null)
             return false;
 
-        if (IsEmailExist(model.Email)) 
-            return false;
-        if (IsPhoneNumberExist(model.Phone))
+        if (IsValueExist(x => (x.Email == model.Email || x.Phone == model.Phone) && x.Id != memberId))
             return false;
 
         (member.Email, member.Phone, member.Address.BuildingNumber, member.Address.Street, member.Address.City, member.UpdatedAt)
@@ -177,6 +173,25 @@ public class MemberServices : IMemberService
         _unitOfWork.GetRepository<Member>().Update(member);
 
         return _unitOfWork.SaveChanges() > 0;
+    }
+    
+    public UpdateMemberViewModel? GetMemberToUpdate(int memberId)
+    {
+        var member = _unitOfWork.GetRepository<Member>().GetById(memberId);
+
+        if (member is null)
+            return null;
+
+        return new UpdateMemberViewModel
+        {
+            Photo = member.Photo,
+            Name = member.Name,
+            Email = member.Email,
+            Phone = member.Phone,
+            BuildingNumber = member.Address.BuildingNumber,
+            Street = member.Address.Street,
+            City = member.Address.City
+        };
     }
 
     #region Helper Methods
@@ -189,9 +204,7 @@ public class MemberServices : IMemberService
         return $"{address.BuildingNumber}, {address.Street}, {address.City}";
     }
 
-    private bool IsEmailExist(string email) => _unitOfWork.GetRepository<Member>().GetAll().Any(x => x.Email == email);
-
-    private bool IsPhoneNumberExist(string phone) => _unitOfWork.GetRepository<Member>().GetAll().Any(x => x.Phone == phone);
+    private bool IsValueExist(Func<Member, bool> condition) => _unitOfWork.GetRepository<Member>().GetAll(condition).Any();
 
     #endregion
 }

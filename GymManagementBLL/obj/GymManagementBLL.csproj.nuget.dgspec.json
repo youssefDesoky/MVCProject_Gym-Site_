@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementBLL/GymManagementBLL.csproj": {}
+    "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementBLL/GymManagementBLL.csproj": {}
   },
   "projects": {
-    "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementBLL/GymManagementBLL.csproj": {
+    "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementBLL/GymManagementBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementBLL/GymManagementBLL.csproj",
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementBLL/GymManagementBLL.csproj",
         "projectName": "GymManagementBLL",
-        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementBLL/GymManagementBLL.csproj",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementBLL/GymManagementBLL.csproj",
         "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementBLL/obj/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementBLL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj": {
-                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj"
+              "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj": {
+    "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj",
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj",
         "projectName": "GymManagementDAL",
-        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementDAL/GymManagementDAL.csproj",
         "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05/MVCProject_Gym-Site_/GymManagementDAL/obj/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession05&06/MVCProject_Gym-Site_/GymManagementDAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"

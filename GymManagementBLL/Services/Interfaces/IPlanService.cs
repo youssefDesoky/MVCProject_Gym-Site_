@@ -9,4 +9,5 @@ public interface IPlanService
     PlanViewModel? GetPlanDetails(int planId);
     bool ToggleActivePlanStatus(int planId);
     bool EditPlan(int planId, UpdatePlanViewModel model);
+    UpdatePlanViewModel? GetPlanToEdit(int planId);
 }
