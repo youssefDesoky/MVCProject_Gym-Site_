@@ -11,4 +11,6 @@ public interface ISessionService
     bool UpdateSession(int sessionId, UpdateSessionViewModel model);
     UpdateSessionViewModel? GetSessionForUpdate(int sessionId);
     bool RemoveSession(int sessionId);
+    IEnumerable<CategorySelectViewModel> GetCategoriesDropDown();
+    IEnumerable<TrainerSelectViewModel> GetTrainersDropDown();
 }

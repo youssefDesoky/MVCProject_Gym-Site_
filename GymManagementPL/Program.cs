@@ -34,6 +34,7 @@ builder.Services.AddAutoMapper(x => x.AddProfile(new MappingProfile()));
 
 var app = builder.Build();
 
+app.UseStaticFiles(); // <-- required to serve wwwroot files
 
 #region Data Seeding
 using (var scope = app.Services.CreateScope())
