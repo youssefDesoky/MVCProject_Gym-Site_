@@ -35,7 +35,7 @@ namespace GymManagementPL.Controllers
         [HttpPost]
         public ActionResult CreateTrainer(CreateTrainerViewModel trainerViewModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("DataMissed", "Check Missing Data");
                 return View(nameof(Create), trainerViewModel);
@@ -67,7 +67,7 @@ namespace GymManagementPL.Controllers
         [HttpPost]
         public ActionResult TrainerEdit([FromRoute] int id, UpdateTrainerViewModel trainerViewModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("DataMissed", "Check Missing Data");
                 return View(nameof(TrainerEdit), trainerViewModel);
@@ -99,7 +99,7 @@ namespace GymManagementPL.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            @ViewBag.TrainerId = trainer.Id;
+            ViewBag.TrainerId = trainer.Id;
 
             return View();
         }

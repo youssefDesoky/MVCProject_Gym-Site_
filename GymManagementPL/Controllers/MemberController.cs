@@ -45,12 +45,12 @@ namespace GymManagementPL.Controllers
         [HttpPost]
         public ActionResult CreateMember(CreateMemberViewModel memberViewModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("DataMissed", "Check Missing Data");
                 return View(nameof(Create), memberViewModel);
             }
-            
+
             bool result = _memberService.CreateMember(memberViewModel);
 
             if (result)
@@ -78,7 +78,7 @@ namespace GymManagementPL.Controllers
         [HttpPost]
         public ActionResult MemberEdit([FromRoute] int id, UpdateMemberViewModel memberViewModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("DataMissed", "Check Missing Data");
                 return View(nameof(MemberEdit), memberViewModel);

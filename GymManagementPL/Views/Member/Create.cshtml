@@ -12,7 +12,7 @@
 @* <div asp-validation-summary="All">
     Summery For all the errors in one place
 </div> *@ 
-@Html.ValidationMessage("DataMissed", new { @class = "text-danger" });
+@Html.ValidationMessage("DataMissed", new { @class = "text-danger" })
 <form method="post" asp-controller="Member" asp-action="CreateMember">
 
     <!-- Step navigation -->

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GymManagementBLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df9e9995d25e0e2a0d932e3b4306def27624c0df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+357dddabdef51a6a3ab7f0dc89087372e1c46a3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GymManagementBLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GymManagementBLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
