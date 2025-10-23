@@ -152,6 +152,20 @@ public class SessionService : ISessionService
         return true;
     }
 
+    public IEnumerable<CategorySelectViewModel> GetCategoriesDropDown()
+    {
+        var categories = _unitOfWork.GetRepository<Category>().GetAll();
+
+        return _mapper.Map<IEnumerable<CategorySelectViewModel>>(categories);
+    }
+
+    public IEnumerable<TrainerSelectViewModel> GetTrainersDropDown()
+    {
+        var trainers = _unitOfWork.GetRepository<Trainer>().GetAll();
+
+        return _mapper.Map<IEnumerable<TrainerSelectViewModel>>(trainers);
+    }
+
     private bool IsSessionAvailableForRemoval(int sessionId)
     {
         var session = _unitOfWork.GetRepository<Session>().GetById(sessionId);

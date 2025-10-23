@@ -13,7 +13,7 @@
     Summery For all the errors in one place
 </div> *@ 
 @Html.ValidationMessage("DataMissed", new { @class = "text-danger" });
-<form method="post" asp-action="CreateMember">
+<form method="post" asp-controller="Member" asp-action="CreateMember">
 
     <!-- Step navigation -->
     <ul class="nav nav-tabs mb-4" id="addMemberTabs" role="tablist">

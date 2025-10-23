@@ -7,35 +7,28 @@ namespace GymManagementDAL.Data.Contexts;
 
 public static class GymDataSeeding
 {
-    public static bool SeedData(GymContext context)
+    public static int SeedData(GymContext context)
     {
-        try
+        if (!context.Categories.Any())
         {
-            if (!context.Categories.Any())
-            {
-                var categories = LoadDataFromJsonFile<Category>("categories.json");
+            var categories = LoadDataFromJsonFile<Category>("categories.json");
 
-                context.Categories.AddRange(categories);
-            }
-
-            if (!context.Plans.Any())
-            {
-                var plans = LoadDataFromJsonFile<Plan>("plans.json");
-
-                context.Plans.AddRange(plans);
-            }
-
-            return context.SaveChanges() > 0;
+            context.Categories.AddRange(categories);
         }
-        catch (Exception)
+
+        if (!context.Plans.Any())
         {
-            return false;
+            var plans = LoadDataFromJsonFile<Plan>("plans.json");
+
+            context.Plans.AddRange(plans);
         }
+
+        return context.SaveChanges();
     }
 
     private static List<T> LoadDataFromJsonFile<T>(string fileName)
     {
-        var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\Files", fileName);
+        var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot", "Files", fileName);
 
         if (!File.Exists(filePath))
             throw new FileNotFoundException();

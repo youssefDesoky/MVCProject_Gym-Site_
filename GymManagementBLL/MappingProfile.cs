@@ -23,5 +23,9 @@ public class MappingProfile : Profile
         CreateMap<CreateSessionViewModel, Session>();
 
         CreateMap<UpdateSessionViewModel, Session>().ReverseMap(); // Enable two-way mapping
+
+        CreateMap<Category, CategorySelectViewModel>();
+        
+        CreateMap<Trainer, TrainerSelectViewModel>();
     }
 }
