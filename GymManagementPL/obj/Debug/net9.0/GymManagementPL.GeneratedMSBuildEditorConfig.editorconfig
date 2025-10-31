@@ -17,117 +17,129 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GymManagementPL
 build_property.RootNamespace = GymManagementPL
-build_property.ProjectDir = /media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/
+build_property.ProjectDir = /media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL
+build_property.MSBuildProjectDirectory = /media/youssef-desoky/Data/My Work/C#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Home/Index.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Member/Create.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Member/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Member/HealthRecordDetails.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Member/HealthRecordDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyL0hlYWx0aFJlY29yZERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Member/Index.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Member/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Member/MemberDelete.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Member/MemberDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyL01lbWJlckRlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Member/MemberDetails.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Member/MemberDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyL01lbWJlckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Member/MemberEdit.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Member/MemberEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyL01lbWJlckVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Plan/Details.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Plan/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhbi9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Plan/Edit.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Plan/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhbi9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Plan/Index.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Plan/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhbi9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Create.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vzc2lvbi9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Delete.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vzc2lvbi9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Details.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vzc2lvbi9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Edit.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vzc2lvbi9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Index.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Session/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vzc2lvbi9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/Error.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/_AlertBoxScript.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/_AlertBoxScript.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BbGVydEJveFNjcmlwdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/Create.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhaW5lci9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/Index.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhaW5lci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/TrainerDelete.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/TrainerDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhaW5lci9UcmFpbmVyRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/TrainerDetails.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/TrainerDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhaW5lci9UcmFpbmVyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/TrainerEdit.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Trainer/TrainerEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhaW5lci9UcmFpbmVyRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/_ViewImports.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/_ViewStart.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession07/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/_Layout.cshtml]
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fbivn6944w
+
+[/media/youssef-desoky/Data/My Work/C\#/Route/MVC/MVCSession08/MVCProject_Gym-Site_/GymManagementPL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ary0u583ap
