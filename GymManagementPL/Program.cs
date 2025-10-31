@@ -1,9 +1,13 @@
+using System.Data.Common;
 using GymManagementBLL;
 using GymManagementBLL.Services.Classes;
 using GymManagementBLL.Services.Interfaces;
 using GymManagementDAL.Data.Contexts;
+using GymManagementDAL.Data.DataSeed;
+using GymManagementDAL.Entities;
 using GymManagementDAL.Repositories.Classes;
 using GymManagementDAL.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,6 +30,22 @@ builder.Services.AddScoped<IPlanService, PlanService>();
 builder.Services.AddScoped<ISessionService, SessionService>();
 builder.Services.AddScoped<ITrainerService, TrainerService>();
 builder.Services.AddScoped<IAnalyticsService, AnalyticsService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
+#endregion
+
+#region Identity Configuration
+// This Is Default Identity Configuration
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    options.Password.RequiredLength = 6;
+    options.Password.RequireLowercase = true;
+}).AddEntityFrameworkStores<GymContext>(); // <-- Add The Database Context Here
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login"; // This is Default
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
 #endregion
 
 #region AutoMapper Configuration
@@ -40,6 +60,10 @@ app.UseStaticFiles(); // <-- required to serve wwwroot files
 using (var scope = app.Services.CreateScope())
 {
     var gymDbContext = scope.ServiceProvider.GetRequiredService<GymContext>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+
+    IdentityDataSeed.SeedData(roleManager, userManager);
     GymDataSeeding.SeedData(gymDbContext);
 }
 #endregion
@@ -55,13 +79,14 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
+app.UseAuthentication(); // <-- Add Authentication Middleware [Must be before Authorization]
 app.UseAuthorization();
 
 app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Account}/{action=Login}/{id?}")
     .WithStaticAssets();
 
 
